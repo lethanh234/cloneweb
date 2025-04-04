@@ -1,73 +1,15 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
-
-
-:root {
-    --color-one: #9463E6;
-    --color-two : #FF589E;
-    --color-text : #77A0CF;
-
-    --font: "Raleway", sans-serif;
-
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+:root{
+    --color-text: #242426;
+   
+    --font: "DM Sans", sans-serif;
 }
 
-body {
-    color : var(--color-text) ;
-    line-height : 1.6 ;
-    font-family: var(--font);
-    margin: 0;
-}
-a {
-    text-decoration: none !important;
-    color: var(--color-text);
-}
- 
-a:hover {
-    color : var(--color-two);
+* {
+    box-sizing: border-box;
 }
 
-.button {
-    display: inline-block;
-    padding: 8px 20px;
-    border-radius: 45px;
-    background: #fff;
-    color: var(--color-text);
-    font-size: 13px;
-    font-weight: 500;
-    transition: all 0.3s ease 0s;
-}
-
-.button-two {
-    background: var(--color-two);
-    color: #fff;
-    transition: all 0.3s ease 0s;
-}
-
-.button-two:hover {
-    background: var(--color-one);
-}
-
-.button-one {
-    background: var(--color-two);
-    color: #fff;
-    transition: all 0.3s ease 0s;
-}
-
-.button-one:hover {
-    background: var(--color-one);
-}
-
-.box-head {
-    text-align: center;
-    margin-bottom: 30px;
-}
-.box-head .inner-title {
-    font-size: 28px;
-    margin-bottom: 0;
-
-}
-
-.box-head .inner-desc {
-    font-size: 14px;
-    margin-top: 10px;
+body{
+    font-family: "DM Sans", sans-serif;
+    color:var(--color-text);
 }
